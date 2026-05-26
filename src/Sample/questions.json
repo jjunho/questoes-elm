@@ -1,0 +1,361 @@
+[
+  {
+    "id": "mc-g1",
+    "title": "Compreensão leitora",
+    "prompt": "Marque a alternativa correta em cada item.",
+    "instructions": "Selecione apenas uma opção por linha.",
+    "type": "multiple_choice",
+    "items": [
+      {
+        "id": "mc-g1-i1",
+        "prompt": "Qual alternativa resume melhor a ideia principal do texto?",
+        "options": [
+          "A autora critica o uso de tecnologia em sala",
+          "O texto defende leitura ativa e contextualizada",
+          "O texto apresenta regras de acentuação"
+        ],
+        "correctOptionIndex": 1
+      },
+      {
+        "id": "mc-g1-i2",
+        "prompt": "Qual é o objetivo comunicativo predominante no trecho?",
+        "options": [
+          "Narrar uma experiência pessoal",
+          "Argumentar em defesa de uma tese",
+          "Descrever um processo técnico"
+        ],
+        "correctOptionIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "vf-g1",
+    "title": "Verdadeiro ou falso",
+    "prompt": "Classifique cada afirmação.",
+    "type": "true_false",
+    "items": [
+      {
+        "id": "vf-g1-i1",
+        "prompt": "A colocação pronominal em português varia com registro e intenção.",
+        "answer": true
+      },
+      {
+        "id": "vf-g1-i2",
+        "prompt": "A próclise é proibida na língua portuguesa padrão.",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "id": "fb-g1",
+    "title": "Completar lacunas",
+    "prompt": "Complete cada frase com o conectivo adequado.",
+    "type": "fill_blank",
+    "items": [
+      {
+        "id": "fb-g1-i1",
+        "parts": [
+          "Os alunos revisaram o artigo,",
+          "entregaram a versão final no prazo."
+        ],
+        "answers": [
+          "portanto"
+        ]
+      },
+      {
+        "id": "fb-g1-i2",
+        "parts": [
+          "Ela estudou durante meses,",
+          "não foi aprovada no exame."
+        ],
+        "answers": [
+          "mas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oq-g1",
+    "title": "Pergunta aberta",
+    "prompt": "Responda de forma objetiva, em até 5 linhas por item.",
+    "type": "open_question",
+    "items": [
+      {
+        "id": "oq-g1-i1",
+        "prompt": "Explique como o contexto histórico influencia a variação linguística.",
+        "placeholder": "Escreva sua análise aqui"
+      },
+      {
+        "id": "oq-g1-i2",
+        "prompt": "Comente a relação entre registro formal e situação comunicativa.",
+        "placeholder": "Desenvolva sua resposta"
+      }
+    ]
+  },
+  {
+    "id": "mt-g1",
+    "title": "Correspondência",
+    "prompt": "Associe corretamente os elementos em cada item.",
+    "type": "matching",
+    "items": [
+      {
+        "id": "mt-g1-i1",
+        "prompt": "Associe o gênero textual à sua finalidade principal.",
+        "pairs": [
+          { "left": "Editorial", "right": "Opinar e argumentar" },
+          { "left": "Relatório", "right": "Registrar e informar" },
+          { "left": "Resenha", "right": "Avaliar uma obra" }
+        ]
+      },
+      {
+        "id": "mt-g1-i2",
+        "prompt": "Associe o marcador discursivo ao valor semântico.",
+        "pairs": [
+          { "left": "Portanto", "right": "Conclusão" },
+          { "left": "Entretanto", "right": "Oposição" },
+          { "left": "Além disso", "right": "Adição" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ord-g1",
+    "title": "Coesão e coerência",
+    "prompt": "Organize as etapas para formar uma sequência lógica.",
+    "type": "ordering",
+    "items": [
+      {
+        "id": "ord-g1-i1",
+        "prompt": "Ordene as etapas de elaboração de um parágrafo argumentativo.",
+        "items": [
+          "Apresentar a tese",
+          "Desenvolver argumento com exemplo",
+          "Concluir retomando a ideia central"
+        ],
+        "correctOrder": [1, 2, 3]
+      },
+      {
+        "id": "ord-g1-i2",
+        "prompt": "Ordene os eventos do resumo narrativo.",
+        "items": [
+          "Conflito inicial",
+          "Resolução do problema",
+          "Apresentação dos personagens"
+        ],
+        "correctOrder": [3, 1, 2]
+      }
+    ]
+  },
+  {
+    "id": "ec-g1",
+    "title": "Correção de erros",
+    "prompt": "Reescreva cada frase corrigindo os desvios gramaticais.",
+    "type": "error_correction",
+    "items": [
+      {
+        "id": "ec-g1-i1",
+        "sentence": "Houveram muitas discussões sobre o tema na aula.",
+        "expectedCorrection": "Houve muitas discussões sobre o tema na aula."
+      },
+      {
+        "id": "ec-g1-i2",
+        "sentence": "Fazem dois anos que ele estuda português.",
+        "expectedCorrection": "Faz dois anos que ele estuda português."
+      }
+    ]
+  },
+  {
+    "id": "ooo-g1",
+    "title": "Vocabulário: palavra intrusa",
+    "prompt": "Escolha a palavra que não pertence ao mesmo campo semântico.",
+    "type": "odd_one_out",
+    "items": [
+      {
+        "id": "ooo-g1-i1",
+        "options": ["romance", "conto", "poema", "fotossíntese"],
+        "correctOptionIndex": 3
+      },
+      {
+        "id": "ooo-g1-i2",
+        "options": ["advérbio", "substantivo", "verbo", "equador"],
+        "correctOptionIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "st-g1",
+    "title": "Transformação de frases",
+    "prompt": "Reescreva mantendo o sentido solicitado.",
+    "type": "sentence_transformation",
+    "items": [
+      {
+        "id": "st-g1-i1",
+        "sourceSentence": "Os alunos terminaram o trabalho ontem.",
+        "transformationRule": "Passe a frase para a voz passiva.",
+        "expectedAnswer": "O trabalho foi terminado pelos alunos ontem."
+      },
+      {
+        "id": "st-g1-i2",
+        "sourceSentence": "Ele disse: \"Vou estudar mais\".",
+        "transformationRule": "Transforme para discurso indireto.",
+        "expectedAnswer": "Ele disse que estudaria mais."
+      }
+    ]
+  },
+  {
+    "id": "tr-g1",
+    "title": "Tradução e mediação",
+    "prompt": "Traduza os trechos com naturalidade.",
+    "type": "translation",
+    "items": [
+      {
+        "id": "tr-g1-i1",
+        "sourceText": "A leitura crítica é essencial para a formação universitária.",
+        "sourceLang": "Português",
+        "targetLang": "Coreano",
+        "expectedTranslation": null
+      },
+      {
+        "id": "tr-g1-i2",
+        "sourceText": "학생들은 문맥을 통해 어휘의 의미를 추론해야 한다.",
+        "sourceLang": "Coreano",
+        "targetLang": "Português",
+        "expectedTranslation": null
+      }
+    ]
+  },
+  {
+    "id": "gi-g1",
+    "title": "Tipologia e gêneros textuais",
+    "prompt": "Identifique o gênero textual mais adequado para cada excerto.",
+    "type": "genre_identification",
+    "items": [
+      {
+        "id": "gi-g1-i1",
+        "excerpt": "Prezados senhores, venho por meio desta solicitar informações sobre o processo seletivo.",
+        "options": ["Carta formal", "Poema", "Notícia", "Receita"],
+        "correctOptionIndex": 0
+      },
+      {
+        "id": "gi-g1-i2",
+        "excerpt": "No último domingo, a equipe local venceu por 2 a 0 e assumiu a liderança do campeonato.",
+        "options": ["Editorial", "Conto", "Notícia", "Bilhete"],
+        "correctOptionIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "ms-g1",
+    "title": "Seleção múltipla",
+    "prompt": "Selecione todas as alternativas válidas.",
+    "type": "multiple_select",
+    "items": [
+      {
+        "id": "ms-g1-i1",
+        "prompt": "Quais itens são classes gramaticais?",
+        "options": ["Substantivo", "Verbo", "Montanha", "Adjetivo"],
+        "minSelections": 2,
+        "maxSelections": 3,
+        "correctOptionIndices": [0, 1, 3]
+      }
+    ]
+  },
+  {
+    "id": "cl-g1",
+    "title": "Classificação",
+    "prompt": "Classifique cada expressão em sua categoria.",
+    "type": "classification",
+    "items": [
+      {
+        "id": "cl-g1-i1",
+        "items": ["rápido", "correr", "cidade"],
+        "labels": ["Adjetivo", "Verbo", "Substantivo"],
+        "expectedLabels": [0, 1, 2]
+      }
+    ]
+  },
+  {
+    "id": "dr-g1",
+    "title": "Reordenação por arraste",
+    "prompt": "Organize os itens na ordem mais adequada.",
+    "type": "reordering",
+    "items": [
+      {
+        "id": "dr-g1-i1",
+        "items": ["Introdução", "Desenvolvimento", "Conclusão"],
+        "correctOrder": [1, 2, 3]
+      }
+    ]
+  },
+  {
+    "id": "ae-g1",
+    "title": "Edição anotada",
+    "prompt": "Destaque o trecho problemático e proponha correção.",
+    "type": "annotated_correction",
+    "items": [
+      {
+        "id": "ae-g1-i1",
+        "sourceText": "Os aluno entregou as atividade no prazo.",
+        "expectedCorrection": "Os alunos entregaram as atividades no prazo."
+      }
+    ]
+  },
+  {
+    "id": "tb-g1",
+    "title": "Tabela estruturada",
+    "prompt": "Preencha a tabela com exemplos coerentes.",
+    "type": "table_response",
+    "items": [
+      {
+        "id": "tb-g1-i1",
+        "columns": ["Conectivo", "Valor semântico", "Exemplo"],
+        "rowCount": 2,
+        "expectedRows": null
+      }
+    ]
+  },
+  {
+    "id": "mm-g1",
+    "title": "Prompt multimodal",
+    "prompt": "Analise os materiais e produza uma resposta curta.",
+    "type": "guided_response",
+    "items": [
+      {
+        "id": "mm-g1-i1",
+        "promptText": "Observe a imagem e explique o impacto da escolha lexical.",
+        "imageUrl": "https://example.com/imagem-apoio.png",
+        "audioUrl": null,
+        "expectedResponse": null
+      }
+    ]
+  },
+  {
+    "id": "oi-g1",
+    "title": "Interação oral guiada",
+    "prompt": "Simule a interação e registre transcrição e notas.",
+    "type": "oral_interaction",
+    "items": [
+      {
+        "id": "oi-g1-i1",
+        "scenario": "Atendimento em secretaria acadêmica.",
+        "role": "Estudante",
+        "expectedPoints": ["Saudação inicial", "Solicitação clara", "Fechamento cordial"]
+      }
+    ]
+  },
+  {
+    "id": "jc-g1",
+    "title": "Escolha com justificativa",
+    "prompt": "Escolha a alternativa mais adequada e justifique.",
+    "type": "choice_with_justification",
+    "items": [
+      {
+        "id": "jc-g1-i1",
+        "statement": "O uso de conectivos contribui para a coesão textual.",
+        "options": ["Concordo", "Discordo", "Depende do contexto"],
+        "requiresJustification": true,
+        "expectedOptionIndex": 2
+      }
+    ]
+  }
+]
